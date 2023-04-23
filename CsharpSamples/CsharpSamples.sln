@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBizz", "FizzBizz\FizzBi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{45D6D404-4A27-45AF-AFDD-C51C37B84FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoblinBattle", "GoblinBattle\GoblinBattle.csproj", "{DA29F3E5-1ACE-434A-8989-53FAB5845336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseLinqCollection", "UseLinqCollection\UseLinqCollection.csproj", "{00B1D93E-C787-47EB-9B98-0BF8B9C3DAF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{45D6D404-4A27-45AF-AFDD-C51C37B84FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D6D404-4A27-45AF-AFDD-C51C37B84FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D6D404-4A27-45AF-AFDD-C51C37B84FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA29F3E5-1ACE-434A-8989-53FAB5845336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA29F3E5-1ACE-434A-8989-53FAB5845336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA29F3E5-1ACE-434A-8989-53FAB5845336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA29F3E5-1ACE-434A-8989-53FAB5845336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B1D93E-C787-47EB-9B98-0BF8B9C3DAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B1D93E-C787-47EB-9B98-0BF8B9C3DAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B1D93E-C787-47EB-9B98-0BF8B9C3DAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B1D93E-C787-47EB-9B98-0BF8B9C3DAF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

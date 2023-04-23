@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibraryTest;
+
 
 namespace Factorizer
 {
@@ -10,17 +12,18 @@ namespace Factorizer
     {
         static void Main(string[] args)
         {
-
+       
             int number;
-            string strNumber = null; ;
+            //string strNumber = null; ;
             List<int> factors = new List<int>();
-            Console.Write("What number would you like to factor?");
-            strNumber = Console.ReadLine();
-            while (! int.TryParse(strNumber, out number))
-            {
-                Console.Write("Please enter a positive number");
-                strNumber = Console.ReadLine();
-            }
+            number = UserInput.GetIntFromInput("What number would you like to factor?");
+            //Console.Write("What number would you like to factor?");
+            //strNumber = Console.ReadLine();
+            //while (!int.TryParse(strNumber, out number))
+            //{
+            //    Console.Write("Please enter a positive number");
+            //    strNumber = Console.ReadLine();
+            //}
             Console.WriteLine($"The factores of {number} are:");
             factors = GetFactors(number);   
             foreach (int factor in factors)

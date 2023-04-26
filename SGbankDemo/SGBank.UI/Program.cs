@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace SGBank.UI
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            Menu.Start();
+
+
         }
     }
 }

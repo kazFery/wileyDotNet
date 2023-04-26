@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGBank.BLL", "SGBank.BLL\SG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGBank.Data", "SGBank.Data\SGBank.Data.csproj", "{B42C1897-BCC3-4159-8D63-86617062A955}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGBank.Test", "SGBank.Test\SGBank.Test.csproj", "{DE1FB5DB-B630-4D53-8768-9230FA892B8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B42C1897-BCC3-4159-8D63-86617062A955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B42C1897-BCC3-4159-8D63-86617062A955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B42C1897-BCC3-4159-8D63-86617062A955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1FB5DB-B630-4D53-8768-9230FA892B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1FB5DB-B630-4D53-8768-9230FA892B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1FB5DB-B630-4D53-8768-9230FA892B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1FB5DB-B630-4D53-8768-9230FA892B8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
